@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cart - Marmeto</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-nav">
+        <a href="/" class="logo">
+          <img src="logo1.png" alt="Marmeto Logo" />
+          <span>Marmeto</span>
+        </a>
+      </div>
+      <button
+        class="menu-toggle"
+        onclick="toggleMenu()"
+        aria-label="Toggle Menu"
+      >
+        ☰
+      </button>
+      <nav id="mainNav">
+        <a href="/">Home</a>
+        <a href="/shop">Shop</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+      </nav>
+      <div class="header-icons">
+        <a href="/search"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a href="/wishlist"><i class="fa-regular fa-heart"></i></a>
+        <a href="/cart"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+    </header>
+
+    <div class="page-title">
+      <img src="logo1.png" alt="" />
+      <h1>Cart</h1>
+
+      <div class="breadcrumb">Home > Cart</div>
+    </div>
+
+    <div class="cart-container">
+      <div class="cart-items" id="cart-items">
+        <div class="title-cart">
+          <p>Product</p>
+          <p>Price</p>
+          <p>Quantity</p>
+          <p>Subtotal</p>
+        </div>
+      </div>
+
+      <div class="cart-totals">
+        <h2>Cart Totals</h2>
+        <div class="total-row">
+          <span>Subtotal</span>
+          <span id="cart-subtotal">Rs. 250,000.00</span>
+        </div>
+        <div class="total-row">
+          <span>Total</span>
+          <span id="cart-total">Rs. 250,000.00</span>
+        </div>
+        <button class="checkout-btn">Check Out</button>
+      </div>
+    </div>
+
+    <div class="features">
+      <div class="feature">
+        <span><i class="fa-solid fa-trophy"></i></span>
+        <div class="f-infi">
+          <h3>High Quality</h3>
+          <p>crafted from top materials</p>
+        </div>
+      </div>
+      <div class="feature">
+        <span><i class="fa-solid fa-check"></i></span>
+        <div class="f-infi">
+          <h3>Warranty Protection</h3>
+          <p>Over 2 years</p>
+        </div>
+      </div>
+      <div class="feature">
+        <span><i class="fa-solid fa-truck-fast"></i></span>
+        <div class="f-infi">
+          <h3>Free Shipping</h3>
+          <p>Order over 150 $</p>
+        </div>
+      </div>
+      <div class="feature">
+        <span><i class="fa-solid fa-headset"></i></span>
+        <div class="f-infi">
+          <h3>24 / 7 Support</h3>
+          <p>Dedicated support</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
