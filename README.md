@@ -8,7 +8,7 @@ You can view the live demo of the project at the following link:
 
 [**Live Demo**](https://stellar-stardust-33c307.netlify.app/)
 
-> Replace `https://your-demo-link.com` with the actual link where your project is hosted.
+
 
 ## Features
 
@@ -28,7 +28,7 @@ You can view the live demo of the project at the following link:
 ```plaintext
 /
 ├── index.html           # The main HTML file
-├── x.css                # External CSS file for styling
-├── index.js             # JavaScript file for functionality
+├── style.css            # External CSS file for styling
+├── script.js            # JavaScript file for functionality
 ├── logo1.png            # Logo image used in the header
-└── apiCartData.json     # Sample API data for cart items (used in fetch)
+└── apiCartData         # Sample API data for cart items 
